@@ -675,7 +675,7 @@ export default function AIHubPage() {
             {t("Session IA, Avril 2026", "AI Session, April 2026")}
           </p>
           <p className="text-sm text-muted-foreground" style={{ fontFamily: "var(--font-body)" }}>
-            AI Hub \u2014 Le Village Marseille
+            AI Hub / Le Village Marseille
           </p>
         </div>
       </footer>
