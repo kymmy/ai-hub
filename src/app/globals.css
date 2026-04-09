@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Source Sans 3', sans-serif;
+
+  --color-background: hsl(36, 33%, 97%);
+  --color-foreground: hsl(30, 20%, 22%);
+  --color-card: hsl(0, 0%, 100%);
+  --color-card-foreground: hsl(30, 20%, 22%);
+  --color-primary: hsl(220, 60%, 50%);
+  --color-primary-foreground: hsl(0, 0%, 100%);
+  --color-secondary: hsl(260, 50%, 60%);
+  --color-secondary-foreground: hsl(0, 0%, 100%);
+  --color-muted: hsl(45, 15%, 92%);
+  --color-muted-foreground: hsl(30, 10%, 46%);
+  --color-accent: hsl(170, 50%, 45%);
+  --color-accent-foreground: hsl(0, 0%, 100%);
+  --color-border: hsl(40, 18%, 88%);
+
+  --color-ai-blue: hsl(220, 60%, 50%);
+  --color-ai-blue-light: hsl(220, 50%, 94%);
+  --color-ai-purple: hsl(260, 50%, 60%);
+  --color-ai-purple-light: hsl(260, 40%, 94%);
+  --color-ai-green: hsl(160, 50%, 45%);
+  --color-ai-green-light: hsl(160, 40%, 93%);
+  --color-ai-orange: hsl(30, 80%, 55%);
+  --color-ai-orange-light: hsl(30, 60%, 94%);
+  --color-ai-pink: hsl(330, 60%, 55%);
+  --color-ai-pink-light: hsl(330, 40%, 94%);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
