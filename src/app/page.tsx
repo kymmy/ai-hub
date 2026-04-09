@@ -170,7 +170,7 @@ export default function AIHubPage() {
               )}
             </p>
             <p className="text-sm text-muted-foreground" style={{ fontFamily: "var(--font-body)" }}>
-              Marseille 11/12
+              Le Village Marseille
             </p>
           </motion.div>
         </div>
@@ -540,10 +540,6 @@ export default function AIHubPage() {
             </Card>
           </div>
 
-          <p className="text-sm text-muted-foreground mt-4" style={{ fontFamily: "var(--font-body)" }}>
-            <strong>Bolt</strong> = {t("bon uniquement pour les prototypes (comme PPT)", "only good for prototypes (like PPT)")}.<br />
-            <strong>Claude Code</strong> = {t("code pr\u00eat pour la production", "production-ready code")}.
-          </p>
         </Section>
 
         {/* Section 06 — Getting Started */}
@@ -679,7 +675,7 @@ export default function AIHubPage() {
             {t("Session IA, Avril 2026", "AI Session, April 2026")}
           </p>
           <p className="text-sm text-muted-foreground" style={{ fontFamily: "var(--font-body)" }}>
-            AI Hub \u2014 Le Village Marseille 11/12
+            AI Hub \u2014 Le Village Marseille
           </p>
         </div>
       </footer>
