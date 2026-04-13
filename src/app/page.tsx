@@ -197,7 +197,7 @@ export default function AIHubPage() {
                     rel="noopener noreferrer"
                     className="text-primary hover:underline inline-flex items-center gap-1"
                   >
-                    John Davis <ExternalLink className="w-3 h-3" />
+                    John Davies <ExternalLink className="w-3 h-3" />
                   </a>
                 </p>
                 <p className="text-sm text-muted-foreground" style={{ fontFamily: "var(--font-body)" }}>
@@ -669,7 +669,7 @@ export default function AIHubPage() {
               rel="noopener noreferrer"
               className="text-primary hover:underline inline-flex items-center gap-1"
             >
-              John Davis <ExternalLink className="w-3 h-3" />
+              John Davies <ExternalLink className="w-3 h-3" />
             </a>
             {" \u2014 "}
             {t("Session IA, Avril 2026", "AI Session, April 2026")}
